@@ -1,0 +1,41 @@
+{
+  "name": "esportscoachapp",
+  "version": "1.0.0",
+  "description": "An application for managing players, practices, and strategies for Esports coaches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobmarch/EsportsCoachingApplication.git"
+  },
+  "keywords": [
+    "Esports",
+    "coaching",
+    "players",
+    "practices",
+    "strategies",
+    "esports",
+    "coach",
+    "managing"
+  ],
+  "author": "Jacob Marchywka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobmarch/EsportsCoachingApplication/issues"
+  },
+  "homepage": "https://github.com/jacobmarch/EsportsCoachingApplication#readme",
+  "dependencies": {
+    "@fullcalendar/daygrid": "^6.1.5",
+    "@fullcalendar/react": "^6.1.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "passport": "^0.6.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
